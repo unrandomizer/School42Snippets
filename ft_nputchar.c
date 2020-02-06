@@ -8,11 +8,10 @@ int ft_nputchar(char c, int n)
 {
 	int i;
 	
-	i=0;
-	while(i<n)
+	i = 0;
+	while(i < n)
 	{
 		ft_putchar(c);
-		i=i+1;
+		i = i + 1;
 	}
 }
-
