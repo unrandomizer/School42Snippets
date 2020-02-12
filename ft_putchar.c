@@ -6,14 +6,14 @@
 /*   By: hvayne <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/10 15:57:21 by hvayne            #+#    #+#             */
-/*   Updated: 2020/02/10 16:45:10 by hvayne           ###   ########.fr       */
+/*   Updated: 2020/02/12 22:51:17 by hvayne           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-int		ft_putchar(char c)
+void	ft_putchar(char c)
 {
 	write(1, &c, 1);
-	return (0);
+	return ;
 }

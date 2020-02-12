@@ -6,11 +6,11 @@
 /*   By: hvayne <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/10 15:53:55 by hvayne            #+#    #+#             */
-/*   Updated: 2020/02/10 16:16:41 by hvayne           ###   ########.fr       */
+/*   Updated: 2020/02/12 22:52:33 by hvayne           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int		ft_putchar(char c);
+void	ft_putchar(char c);
 
 void	ft_putstr(char *str)
 {
