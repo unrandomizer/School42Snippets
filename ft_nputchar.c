@@ -6,22 +6,18 @@
 /*   By: hvayne <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/10 15:59:10 by hvayne            #+#    #+#             */
-/*   Updated: 2020/02/10 15:59:20 by hvayne           ###   ########.fr       */
+/*   Updated: 2020/02/12 21:06:07 by hvayne           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int ft_putchar(char c)
-{
-	write(1, &c, 1);
-	return (0);
-}
+int		ft_putchar(char c);
 
-int ft_nputchar(char c, int n)
+int		ft_nputchar(char c, int n)
 {
 	int i;
-	
+
 	i = 0;
-	while(i < n)
+	while (i < n)
 	{
 		ft_putchar(c);
 		i = i + 1;
