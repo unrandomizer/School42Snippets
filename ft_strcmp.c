@@ -6,13 +6,13 @@
 /*   By: hvayne <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/02/11 02:54:25 by hvayne            #+#    #+#             */
-/*   Updated: 2020/02/12 21:37:24 by hvayne           ###   ########.fr       */
+/*   Updated: 2020/02/15 22:49:54 by hvayne           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 int		ft_strcmp(char *s1, char *s2)
 {
-	while (s1++ == s2++)
+	while (*s1++ == *s2++)
 		if (!*(s1 - 1))
 			return (0);
 	return (*(unsigned char *)--s1 - *(unsigned char *)--s2);
